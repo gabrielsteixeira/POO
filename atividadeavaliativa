@@ -1,0 +1,164 @@
+Apresentação de Projetos em Python Orientado a Objetos
+Objetivo:
+Avaliar a capacidade dos alunos de aplicar os conceitos de Programação Orientada a Objetos (POO) em Python, através da análise e apresentação de projetos práticos.
+Critérios de Avaliação:
+Clareza e objetividade na apresentação do projeto;
+Qualidade da análise e do planejamento do projeto;
+Aplicação correta dos conceitos de POO em Python;
+Eficiência e organização do código-fonte;
+Clareza e completude da documentação;
+Funcionamento correto do programa e ausência de bugs;
+Originalidade e criatividade na solução proposta;
+Domínio do conteúdo e capacidade de comunicação.
+Orientações:
+A apresentação do projeto poderá ser realizada individualmente ou em grupos de no máximo 3 alunos;
+O tempo máximo de apresentação é de 20 minutos;
+Os alunos deverão utilizar recursos visuais, como slides, imagens e vídeos, para complementar a apresentação;
+Será disponibilizado um espaço para perguntas e debate após a apresentação de cada projeto.
+Recursos Adicionais:
+[Lista de bibliotecas e frameworks Python úteis para o desenvolvimento do projeto]
+[Exemplos de projetos em Python Orientado a Objetos]
+[Tutoriais e documentação sobre conceitos de PO
+Desenvolver o Diagrama de Classes:
+É fundamental elaborar um diagrama de classes que represente as classes, seus atributos, métodos e as relações entre elas. Essa etapa crucial auxilia na organização das ideias, na identificação de potenciais falhas e na construção de um modelo de software sólido e bem estruturado.
+Orientação para Construção do Diagrama de Classes:
+Utilize ferramentas como o MIRO ou o Dia para criar o diagrama de classes.
+Represente cada classe como um retângulo, incluindo seu nome, atributos e métodos.
+Utilize setas para indicar as relações entre as classes, como herança, agregação e composição.
+Especifique a cardinalidade das relações, como um para um, um para muitos ou muitos para muitos.
+Anote observações relevantes sobre as classes e seus relacionamentos.
+ 
+O diagrama de classes é um guia fundamental para o desenvolvimento do sistema. Dedique tempo à sua criação e revise-o periodicamente para garantir que ele esteja alinhado com a implementação do código.
+Opção 1: Apresentação de Projeto Próprio
+Desenvolvimento:
+Escolha do Tema: Selecione um tema de sua área de interesse, relacionado aos conteúdos abordados em sala de aula ou à sua experiência pessoal. O tema deve ser propício para o desenvolvimento de um projeto em Python utilizando conceitos de POO.
+Definição do Problema: Formule um problema claro e conciso relacionado ao tema escolhido, considerando os princípios da POO. Este problema servirá como base para o desenvolvimento do seu projeto.
+Análise e Planejamento: Realize uma análise aprofundada do problema, identificando os objetos envolvidos, seus atributos, comportamentos e as relações entre eles. Utilize diagramas UML (Unified Modeling Language), como classes e casos de uso, para auxiliar no planejamento do projeto.
+Desenvolvimento do Projeto: Implemente o projeto em Python, utilizando os conceitos de POO aprendidos em sala de aula. Crie classes, defina atributos e métodos, implemente a lógica do programa e utilize técnicas de POO como encapsulamento, herança e polimorfismo.
+Documentação do Código: Documente o código de forma clara e organizada, utilizando comentários explicativos e descritivos. A documentação deve facilitar a compreensão do código por outras pessoas.
+Testes e Validação: Realize testes rigorosos do código para garantir que o programa esteja funcionando de acordo com o esperado. Utilize ferramentas de teste automatizado e técnicas de validação para identificar e corrigir bugs.
+Apresentação do Projeto: Prepare uma apresentação completa e bem estruturada para apresentar o seu projeto. A apresentação deve abordar os seguintes tópicos:
+Tema e Contexto: Apresente o tema do projeto, o problema que ele aborda e o contexto em que se aplica.
+Análise e Planejamento: Descreva a análise realizada, os diagramas UML utilizados e as decisões de design tomadas durante o planejamento do projeto.
+Implementação do Código: Explique a implementação do código em Python, detalhando as classes, métodos, atributos e técnicas de POO utilizadas.
+Documentação: Apresente a documentação do código, destacando os comentários explicativos e as informações relevantes para a compreensão do programa.
+Testes e Validação: Descreva os testes realizados, as ferramentas utilizadas e os resultados obtidos na validação do código.
+Demonstração Prática: Faça uma demonstração ao vivo do projeto, mostrando as funcionalidades e como ele funciona na prática.
+Conclusão: Apresente uma conclusão que sintetize os principais pontos do projeto, destacando os desafios enfrentados, as soluções implementadas e os resultados obtidos.
+Opção 2: Apresentação de Projeto Conforme Enunciado Abaixo
+Abrigo de Animais: Salvando Vidas, Construindo Lares (Exercício em Python Orientado a Objetos)
+Cenário:
+Um desastre natural assolou a cidade, causando inundações e deixando muitos animais desamparados. Para auxiliar na recuperação e acolher os pets em situação vulnerável, foi criado o Abrigo de Animais Esperança, um local dedicado a cuidar, proteger e encontrar um lar definitivo para esses animais.
+Desenvolver Projeto Pythons Orientado a Objetos
+  Desenvolver um sistema em Python Orientado a Objetos para gerenciar o abrigo de animais.
+Implementar as técnicas de polimorfismo, herança e composição para modelar as classes e seus relacionamentos.
+Classes:
+1. Animal:
+Atributos:
+nome: Nome do animal.
+raca: Raça do animal (ex: Labrador Retriever, SRD).
+especie: Espécie do animal (ex: Cão, Gato).
+genero: Sexo do animal (ex: macho, fêmea).
+idade: Idade do animal em meses ou anos.
+tutor: Objeto da classe Tutor que representa o dono do animal (se houver).
+localResgatado: Local onde o animal foi resgatado.
+resgatador: Objeto da classe Pessoa ou Entidade que resgatou o animal.
+abrigo: Objeto da classe Abrigo que representa o abrigo onde o animal está.
+Métodos:
+comer(): Simula o animal comendo.
+brincar(): Simula o animal brincando.
+emitirSom(): Simula o animal emitindo som (latido, miado, etc.).
+toString(): Retorna uma string com as informações do animal.
+ 
+2. Pet:
+Herda da classe Animal.
+Atributos específicos de cada espécie (ex: porte, cor da pelagem, características físicas).
+Métodos específicos de cada espécie (ex: latir, miar, ronronar).
+3. Cão:
+Herda da classe Pet.
+Atributos específicos de cães (ex: raça, porte, características físicas).
+Métodos específicos de cães (ex: latir, buscar objetos, correr).
+4. Gato:
+Herda da classe Pet.
+Atributos específicos de gatos (ex: raça, cor da pelagem, características físicas).
+Métodos específicos de gatos (ex: miar, ronronar, subir em árvores).
+5. Tutor:
+Atributos:
+nome: Nome do tutor.
+telefone: Número de telefone do tutor.
+endereco: Endereço do tutor.
+Métodos:
+adotarAnimal(animal): Permite ao tutor adotar um animal do abrigo.
+devolverAnimal(animal): Permite ao tutor devolver um animal ao abrigo.
+6. Pessoa:
+Atributos:
+nome: Nome da pessoa.
+cpf: CPF da pessoa.
+telefone: Número de telefone da pessoa.
+Métodos:
+resgatarAnimal(animal): Permite à pessoa resgatar um animal.
+7. Entidade:
+Atributos:
+nome: Nome da entidade.
+cnpj: CNPJ da entidade.
+telefone: Número de telefone da entidade.
+Métodos:
+resgatarAnimal(animal): Permite à entidade resgatar um animal.
+8. Abrigo:
+Atributos:
+nome: Nome do abrigo.
+endereco: Endereço do abrigo.
+capacidade: Capacidade máxima de animais no abrigo.
+animais: Lista de animais atualmente no abrigo.
+Métodos:
+receberAnimal(animal): Permite ao abrigo receber um novo animal.
+adotarAnimal(animal, tutor): Permite ao abrigo adotar um animal para um tutor.
+devolverAnimal(animal): Permite ao abrigo receber um animal de volta.
+Polimorfismo:
+O método emitirSom() da classe Animal é polimórfico, permitindo que cada subclasse (Cão, Gato, etc.) implemente sua própria versão do método para emitir o som específico da espécie.
+Herança de métodos específicos: cada classe filho (Cão, Gato) pode ter seus próprios métodos específicos para realizar ações relevantes à sua espécie.
+Herança:
+A classe Pet herda da classe Animal, compartilhando atributos e métodos comuns, como nome, raca, especie, genero, idade, `localResgatado
+ 
+As classes Pessoa e Entidade herdam da classe Pessoa, compartilhando atributos e métodos comuns, como nome, telefone e resgatarAnimal().
+ 
+ 
+Composição:
+A classe Animal possui um atributo tutor do tipo Tutor, que compõe a classe Animal e permite associar um animal a um tutor.
+ 
+Desafio:
+Implementar as classes e métodos descritos, criando um sistema completo para gerenciar o abrigo de animais.
+Incluir funcionalidades para:
+Cadastrar novos animais, incluindo nome, raça, espécie, gênero, idade, local resgatado, resgatador e abrigo.
+Cadastrar novos tutores, incluindo nome, telefone e endereço.
+Registrar resgates de animais por pessoas e entidades.
+Realizar adoções de animais por tutores, atualizando o status do animal e do tutor.
+Permitir a devolução de animais ao abrigo.
+Gerar relatórios com informações sobre os animais, tutores, resgates e adoções.
+ 
+ 
+Observações para opção 1 e 2
+1. Simplificação da Estrutura:
+O enunciado original apresentava uma estrutura complexa com diversas classes e métodos. Para facilitar a compreensão e o desenvolvimento, considere simplificar a estrutura, agrupando funcionalidades e otimizando o código.
+2. Foco nos Conceitos Essenciais:
+Priorize os conceitos chave de Orientação a Objetos, como herança, polimorfismo e composição. Utilize esses conceitos de forma clara e concisa, exemplificando-os com casos de uso práticos no contexto do abrigo de animais.
+3. Definição Clara das Classes:
+Defina as classes com clareza, especificando seus atributos, métodos e responsabilidades. Utilize diagramas UML para visualizar as relações entre as classes e facilitar a compreensão do modelo.
+4. Implementação Gradual:
+Implemente o sistema gradualmente, começando pelas funcionalidades básicas e expandindo gradativamente para recursos mais complexos. Isso facilita o processo de desenvolvimento e teste.
+5. Testes Rigorosos:
+Implemente testes unitários para garantir o bom funcionamento das classes e métodos. Isso aumenta a confiabilidade do código e facilita a identificação de erros.
+6. Documentação Detalhada:
+Documente o código com comentários explicativos, descrevendo as classes, métodos, atributos e funcionalidades. Isso torna o código mais legível e facilita a manutenção futura.
+7. Exemplos Práticos:
+Inclua exemplos práticos de como utilizar as classes e métodos do sistema. Isso auxilia na compreensão do funcionamento do código e na aplicação dos conceitos de Orientação a Objetos.
+8. Flexibilidade e Extensibilidade:
+Projete o sistema de forma flexível e extensível, permitindo a inclusão de novas funcionalidades e classes no futuro. Isso garante a longevidade do código e sua adaptabilidade a novas necessidades.
+9. Considerações Adicionais:
+Abordar a persistência de dados, como salvar e carregar informações sobre animais, tutores, resgates e adoções, utilizando bancos de dados ou arquivos.
+Implementar funcionalidades de busca e filtragem de animais por diferentes critérios, como espécie, raça, idade, local resgatado, etc.
+Considerar a geração de relatórios estatísticos sobre animais, resgates, adoções e outros aspectos relevantes do abrigo.
+10. Ferramentas e Bibliotecas:
+Explorar o uso de bibliotecas Python que facilitam o desenvolvimento de aplicações com interfaces gráficas, como Tkinter ou PyQt, para criar uma interface amigável para o sistema de gerenciamento do abrigo.
+Lembre-se:
+O objetivo principal do exercício é aplicar os conceitos de Orientação a Objetos de forma eficaz e prática, criando um sistema funcional e bem estruturado para gerenciar o abrigo de animais.
